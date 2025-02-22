@@ -1,0 +1,180 @@
+/* SignupPage.module.css */
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #f7f8fc;
+}
+
+/* Left Section */
+.leftSection {
+  flex: 1;
+  background: #5b4fd8;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  clip-path: polygon(0 0, 90% 0, 80% 100%, 0 100%);
+
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 20px;
+  background: white;
+  color: black;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+/* Right Section */
+.rightSection {
+  flex: 1.5;
+  background: #f7f8fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signupBox {
+  background: white;
+  color: black;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 2px;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Social signup Buttons */
+.socialSignup {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.socialButton {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  color: grey;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.socialButton:hover {
+  background-color: #f5f5f5;
+}
+
+.buttonIcon {
+  font-size: 16px;
+}
+
+/* Input Fields */
+.inputGroup {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 5px;
+  background-color: #f3f0f0;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #5b4fd8;
+  background-color: #e8e8e8;
+}
+
+/* Sign Up Button */
+.signupButton {
+  width: 100%;
+  background: #5b4fd8;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 10px;
+}
+
+.signupButton:hover {
+  background: #4a3fc5;
+}
+
+/* Login Text */
+.loginText {
+  font-size: 14px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.link {
+  color: #5b4fd8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Message */
+.message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f8d7da;
+  color: #721c24;
+}

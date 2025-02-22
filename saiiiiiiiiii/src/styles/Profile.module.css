@@ -1,0 +1,101 @@
+/* Profile.module.css */
+.profileContainer {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    color: black;
+  }
+  
+  .profileCard {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .profileCard:hover {
+    transform: scale(1.03);
+  }
+  
+  .profileHeader {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profileDetails p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .profileActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .editButton {
+    background-color: #facc15;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .deleteButton {
+    background-color: #ef4444;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .editButton:hover {
+    background-color: #eab308;
+  }
+  
+  .deleteButton:hover {
+    background-color: #dc2626;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .saveButton {
+    background-color: #22c55e;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancelButton {
+    background-color: #6b7280;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .saveButton:hover {
+    background-color: #16a34a;
+  }
+  
+  .cancelButton:hover {
+    background-color: #4b5563;
+  }
+  

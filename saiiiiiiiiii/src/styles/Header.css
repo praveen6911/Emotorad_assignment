@@ -1,0 +1,56 @@
+.profile-avatar {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #64748b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .profile-avatar:hover {
+    transform: scale(1.1);
+    background-color: #475569;
+  }
+
+  .search-input {
+    width: 200px;
+    padding: 8px 12px;
+    border: 1px solid #cbd5e1; /* Light gray border */
+    border-radius: 20px;
+    outline: none;
+    transition: 0.3s;
+    font-size: 14px;
+    color: #333;
+    background-color: #f8fafc; /* Light background */
+  }
+  
+  .search-input::placeholder {
+    color: #94a3b8; /* Soft gray */
+  }
+  
+  .search-input:focus {
+    border-color: #4f46e5; /* Highlight border */
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(79, 70, 229, 0.5); /* Soft glow effect */
+  }
+  .notification-btn{
+    background-color:white;
+    color: black;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
